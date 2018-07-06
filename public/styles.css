@@ -1,10 +1,32 @@
 
 
-body{
+/* body{
   background: red;
   color: white;
   font-size: 30px;
-}
+} */
 h3{
   margin-top: 40px;
+}
+body {
+  background: url(http://www.news.gatech.edu/sites/default/files/pictures/feature_images/icon_math_1.gif); no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+font-size: 24px;
+color: red;
+}
+
+section{
+  border: 3px solid white;
+  background: gray;
+  border-radius: 4px;
+  width: 50%;
+}
+header{
+  border: 3px solid white;
+  background: gray;
+  border-radius: 4px;
+  width: 50%;
 }
